@@ -46,6 +46,9 @@ Choose token addresses: The dApp supports two tokens for swapping. You can use e
 
 - Token 1 Address: 0x73Cbe15f840Cce4911C8378900d6a8C3615Dd0e1
 - Token 2 Address: 0x2b5F95A4cfeE90BF6E1AD27C86f2a2F3db7e866D
+- Dex contract : 0xfCacD4D53245d8809015D8D23a87E66090dc0cB1
+- private key :  3e585ba774b0f6251acea12df5597cc27d8a96a7ef5d1b3a11ed75dd4d6271f7 
+### (kindly don't forward the excess sepolia eth present i had borrowed wallet from some-one)
 - liquidity is already added with 0.1 and 0.5 fee scpecified
 
 ## Enter swap details:
@@ -53,9 +56,9 @@ Choose token addresses: The dApp supports two tokens for swapping. You can use e
 - Amount to swap: Enter the amount of the selected token you wish to swap.
   Source token address: Choose one of the above token addresses as the source.
   Destination token address: Choose the other token as the destination.
-  Review the swap: The UI will display the swap details, including the expected amount of the destination token.
+ 
 
-Confirm the transaction: Once satisfied, click "Swap" to confirm the transaction. The dApp will execute the swap via the Uniswap V3 router, and the result will be displayed.
+Confirm the transaction: Once satisfied, click "Swap" to confirm the transaction. The dApp will execute the swap via the Uniswap V3 router
 
 # Features
 
