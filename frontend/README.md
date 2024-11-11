@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Recruitment Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **swap dapp**, a decentralized application (dApp) that enables seamless token swaps through an intuitive user interface.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Token Addresses](#token-addresses)
+- [Features](#features)
+- [License](#license)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Follow these steps to set up and run the project locally:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository**:
+   Clone the repository from GitHub to your local machine by running the following command:
+   ````bash
+   git clone https://github.com/Anwar-Khann/recruitment_test
+    ```
+   Navigate to the main project folder: Change to the directory where the project was cloned:
+   ````
 
-### `npm test`
+- cd frontend
+  Verify the contents of the folder: Use ls to list the files in the directory and confirm you're in the correct folder:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Install project dependencies:
+  Run the following command to install all the necessary Node.js packages:
 
-### `npm run build`
+```
+npm install || yarn install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run the project locally: Start the project by running the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project should now be live at http://localhost:3000/ (or another port, depending on your configuration). Open this URL in your web browser to access the dApp.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Usage
 
-### `npm run eject`
+Once the project is running, follow these steps to perform a token swap:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navigate to the dApp: Open your browser and visit http://localhost:3000/ (or the appropriate URL if configured differently).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Choose token addresses: The dApp supports two tokens for swapping. You can use either one of the following token addresses for the transaction:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Token 1 Address: 0x832262D88e6C02A31C7C267B6536cFafe7Fdf3E8
+- Token 2 Address: 0x174F4259E885EBaFcDc6c09f38a493c4CA90b85e
+- Dex contract : 0xa886B5737FBEB5120EadB5B81Ba2e89d14Da08bD
+- private key : 3e585ba774b0f6251acea12df5597cc27d8a96a7ef5d1b3a11ed75dd4d6271f7
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### (kindly don't forward the excess sepolia eth present i had borrowed wallet from some-one)
 
-## Learn More
+- liquidity is already added with 0.1 and 0.5 fee scpecified
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Enter swap details:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Amount to swap: Enter the amount of the selected token you wish to swap.
+  Source token address: Choose one of the above token addresses as the source.
+  Destination token address: Choose the other token as the destination.
 
-### Code Splitting
+Confirm the transaction: Once satisfied, click "Swap" to confirm the transaction. The dApp will execute the swap via the Uniswap V3 router
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Features
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+User-friendly interface: Swap tokens through a simple and intuitive UI.
+Multiple token support: Swap between two supported token pairs.
