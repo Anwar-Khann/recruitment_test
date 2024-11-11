@@ -1,5 +1,5 @@
 // Sepoila Testnet
-export const DEX_ADDRESS = "0xfCacD4D53245d8809015D8D23a87E66090dc0cB1";
+export const DEX_ADDRESS = "0xa886B5737FBEB5120EadB5B81Ba2e89d14Da08bD";
 
 export const DEX_ABI = [
   {
@@ -71,6 +71,35 @@ export const DEX_ABI = [
     type: "function",
   },
   {
+    inputs: [
+      {
+        internalType: "address",
+        name: "_tokenIn",
+        type: "address",
+      },
+      {
+        internalType: "address",
+        name: "_tokenOut",
+        type: "address",
+      },
+      {
+        internalType: "uint256",
+        name: "amountIn",
+        type: "uint256",
+      },
+    ],
+    name: "getQuote",
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
     inputs: [],
     name: "owner",
     outputs: [
@@ -108,7 +137,7 @@ export const DEX_ABI = [
     name: "swapRouter",
     outputs: [
       {
-        internalType: "contract ISwapRouter",
+        internalType: "contract IUniswapV2Router02",
         name: "",
         type: "address",
       },
@@ -132,11 +161,6 @@ export const DEX_ABI = [
         internalType: "address",
         name: "tokenOut",
         type: "address",
-      },
-      {
-        internalType: "uint256",
-        name: "amountMinimum",
-        type: "uint256",
       },
     ],
     name: "swapTokens",
