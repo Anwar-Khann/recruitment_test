@@ -34,6 +34,8 @@ npm install || yarn install
 
 Run the project locally: Start the project by running the following command:
 
+- also make sure to run the server file as well have used the express.js because of ease(low complexity tasks on back-end).
+
 The project should now be live at http://localhost:3000/ (or another port, depending on your configuration). Open this URL in your web browser to access the dApp.
 
 # Usage
@@ -49,17 +51,15 @@ Choose token addresses: The dApp supports two tokens for swapping. You can use e
 - Dex contract : 0xa886B5737FBEB5120EadB5B81Ba2e89d14Da08bD
 - private key : 3e585ba774b0f6251acea12df5597cc27d8a96a7ef5d1b3a11ed75dd4d6271f7
 
-### (kindly don't forward the excess sepolia eth present i had borrowed wallet from some-one)
-
-- liquidity is already added with 0.1 and 0.5 fee scpecified
+- liquidity is already added with uniswapV2Router;
 
 ## Enter swap details:
 
 - Amount to swap: Enter the amount of the selected token you wish to swap.
-  Source token address: Choose one of the above token addresses as the source.
-  Destination token address: Choose the other token as the destination.
+- Source token address: Choose one of the above token addresses as the source.
+- Destination token address: Choose the other token as the destination.
 
-Confirm the transaction: Once satisfied, click "Swap" to confirm the transaction. The dApp will execute the swap via the Uniswap V3 router
+Confirm the transaction: Once satisfied, click "Swap" to confirm the transaction. The dApp will execute the swap via the Uniswap V2 router
 
 # Features
 
