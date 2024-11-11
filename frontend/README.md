@@ -22,14 +22,14 @@ Follow these steps to set up and run the project locally:
    Navigate to the main project folder: Change to the directory where the project was cloned:
    ````
 
-- cd project-name
+- cd frontend
   Verify the contents of the folder: Use ls to list the files in the directory and confirm you're in the correct folder:
 
 - Install project dependencies:
   Run the following command to install all the necessary Node.js packages:
 
 ```
-npm install
+npm install || yarn install
 ```
 
 Run the project locally: Start the project by running the following command:
