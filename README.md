@@ -8,7 +8,6 @@ Welcome to **swap dapp**, a decentralized application (dApp) that enables seamle
 - [Usage](#usage)
 - [Token Addresses](#token-addresses)
 - [Features](#features)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
@@ -18,7 +17,8 @@ Follow these steps to set up and run the project locally:
 1. **Clone the repository**:
    Clone the repository from GitHub to your local machine by running the following command:
    ````bash
-   git clone https://github.com/yourusername/project-name.git ```
+   git clone https://github.com/Anwar-Khann/recruitment_test
+    ```
    Navigate to the main project folder: Change to the directory where the project was cloned:
    ````
 
